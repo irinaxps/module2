@@ -10,11 +10,15 @@
 <style>
 * {
   box-sizing: border-box;
+
 }
 h1 {
-  margin-bottom: 15px;
-}
+  margin-bottom: 35px;
+  margin-left: 250px ;
+  text-decoration: underline;
+  font-variant: arial;
 
+}
 
 
 /* Simple Responsive Framework. */
@@ -26,7 +30,7 @@ h1 {
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    border: 1px solid green;
+    border: 1px solid black;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -70,7 +74,7 @@ h1 {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 1px solid green;
+    border: 1px solid black;
   }
   .col-md-1 {
     width: 8.33%;
@@ -113,7 +117,7 @@ h1 {
 @media (max-width: 767px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
-    border: 1px solid green;
+    border: 1px solid black;
   }
   .col-sm-1 {
     width: 8.33%;
@@ -153,6 +157,53 @@ h1 {
   }
 }
 
+}
+
+}
+
+
+}
+
+
+#A {position: relative;
+;}
+
+#start {
+  position: relative;
+  float: right;
+margin-top: 0px;}
+
+  section {
+    float: left;
+    ;
+  }
+
+ 
+#B {position: relative;}
+
+#main {
+  position: relative;
+  float: right;
+margin-top: 0px;
+background-color: yellow;}}
+  section {
+    float: left;
+  }
+
+
+#C {position: relative;
+}
+
+#dess {
+  position: relative;
+  float: right;
+margin-top: 0px;
+background-color: lightgreen;}
+  section {
+    float: left;
+  }
+
+
 </style>
 
 
@@ -160,11 +211,16 @@ h1 {
 <body>
   <h1>Menu</h1>
 
-  <div>class="row"
-
-    <div>class="col-lg-3 col-md-6 col-sm-12"><p>Starters</p></div>
-    <div>class="col-lg-3 col-md-6 col-sm-12"><p>Main Course</p></div>
-    <div>class="col-lg-3 col-md-6 col-sm-12"><p>Dessert</p></div>
+  <div  class="row">
+    <div  id = "A" class="col-lg-3 col-md-6 col-sm-12">
+  <p id ="start"> STARTERS</p> 
+<section>tion should have a section title region that is always positioned at the top right corner of the section no matter the view (desktop, tablet or mobile). Copy the titles from the mockup illustration (i.e., Chicken, Beef, Sushi) or come up with your own. (Hint: use relative and absolute positioning and offsets as discussed in Lecture 22.)</section></div>
+    <div id ="B" class="col-lg-3 col-md-6 col-sm-12">
+      <p id="main">MAIN COURSE</p>
+      <section>tion should have a section title region that is always positioned at the top right corner of the section no matter the view (desktop, tablet or mobile). Copy the titles from the mockup illustration (i.e., Chicken, Beef, Sushi) or come up with your own. (Hint: use relative and absolute positioning and offsets as discussed in Lecture 22.)</section></div>
+    <div id ="C" class="col-lg-3 col-md-6 col-sm-12">
+      <p id="dess">DESSERT</p>
+      <section>tion should have a section title region that is always positioned at the top right corner of the section no matter the view (desktop, tablet or mobile). Copy the titles from the mockup illustration (i.e., Chicken, Beef, Sushi) or come up with your own. (Hint: use relative and absolute positioning and offsets as discussed in Lecture 22.)</section></div>
     </div>
 </body>
 </html>

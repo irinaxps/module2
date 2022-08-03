@@ -1,12 +1,18 @@
 p {
-  font-size: 200%;
-    background-color: orange;
-  color: darkgreen;
-  border: 2px solid black;
-  width: 90%;
-  height: 150px;
+  font-size: 100%;
+    background-color: skyblue;
+  color: darkmagenta;
+  border: 1px solid black;
+  width: 50%;
+  height: 30px;
   margin-right: auto;
   margin-left: auto;
-  font-family: Helvetica;
+  font-family: comics;
+  text-align-last: center;
   ;
 }
+
+div {
+  background-color: lightgoldenrodyellow;
+font-family: helvetica;}
+
