@@ -1,5 +1,12 @@
 p {
-  font-size: 130%;
+  font-size: 100%;
   background-color: lightyellow;
   color: darkgreen;
+  border: 2px solid black;
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  ;
 }
